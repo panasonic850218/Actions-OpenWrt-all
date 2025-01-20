@@ -15,8 +15,8 @@ sed -i 's/192.168.1.1/192.168.66.1/g' package/base-files/files/bin/config_genera
 sed -i 's/ImmortalWrt/R3MINI/g' package/base-files/files/bin/config_generate
 sed -i 's/80/45/g' package/firmware/bpir3_mini-properties/files/ltecalling
 sed -i 's/Routes/Routing/g' package/mtk/applications/luci-app-mtwifi-cfg/root/usr/share/luci-app-mtwifi-cfg/luci-mod-status
-sed -i 's/(VERSION_DIST),ImmortalWrt/(VERSION_DIST),R3MINI/g' include/version
-sed -i 's/(VERSION_MANUFACTURER),ImmortalWrt/(VERSION_MANUFACTURER),R3MINI/g' include/version
+sed -i 's/(VERSION_DIST),ImmortalWrt/(VERSION_DIST),BPI-R3-MINI/g' include/version
+sed -i 's/(VERSION_MANUFACTURER),ImmortalWrt/(VERSION_MANUFACTURER),BPI-R3-MINI/g' include/version
 sed -i 's/ImmortalWrt-2.4G/BPI-R3-2.4G/g' package/mtk/applications/mtwifi-cfg/files/mtwifi
 sed -i 's/ImmortalWrt-5G/BPI-R3-5G/g' package/mtk/applications/mtwifi-cfg/files/mtwifi
 sed -i 's/Bananapi BPI-R3MINI EMMC/BPI-R3-MINI/g' target/linux/mediatek/files-5.4/arch/arm64/boot/dts/mediatek/mt7986a-bananapi-bpi-r3mini-emmc
