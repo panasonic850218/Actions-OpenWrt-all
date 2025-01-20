@@ -19,6 +19,7 @@ sed -i 's/(VERSION_DIST),ImmortalWrt/(VERSION_DIST),R3MINI/g' include/version
 sed -i 's/(VERSION_MANUFACTURER),ImmortalWrt/(VERSION_MANUFACTURER),R3MINI/g' include/version
 sed -i 's/ImmortalWrt-2.4G/BPI-R3-2.4G/g' package/mtk/applications/mtwifi-cfg/files/mtwifi
 sed -i 's/ImmortalWrt-5G/BPI-R3-5G/g' package/mtk/applications/mtwifi-cfg/files/mtwifi
+sed -i 's/Bananapi BPI-R3MINI EMMC/BPI-R3-MINI/g' target/linux/mediatek/files-5.4/arch/arm64/boot/dts/mediatek/mt7986a-bananapi-bpi-r3mini-emmc
 
 # Modify default theme
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
