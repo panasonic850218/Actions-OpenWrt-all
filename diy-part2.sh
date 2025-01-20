@@ -12,7 +12,7 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.66.1/g' package/base-files/files/bin/config_generate
-sed -i 's/ImmortalWrt/R3MINI/g' package/base-files/files/bin/config_generate
+sed -i 's/ImmortalWrt/BPI-R3-MINI/g' package/base-files/files/bin/config_generate
 sed -i 's/80/45/g' package/firmware/bpir3_mini-properties/files/ltecalling
 sed -i 's/Routes/Routing/g' package/mtk/applications/luci-app-mtwifi-cfg/root/usr/share/luci-app-mtwifi-cfg/luci-mod-status
 sed -i 's/(VERSION_DIST),ImmortalWrt/(VERSION_DIST),BPI-R3-MINI/g' include/version
