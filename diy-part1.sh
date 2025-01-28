@@ -27,3 +27,4 @@ git clone https://github.com/animegasan/luci-app-dnsleaktest.git feeds/packages/
 # git clone https://github.com/animegasan/luci-app-speedtest.git feeds/packages/luci-app-speedtest
 git clone https://github.com/sirpdboy/luci-app-chatgpt-web.git feeds/packages/luci-app-chatgpt-web
 git clone https://github.com/sirpdboy/netspeedtest.git feeds/packages/netspeedtest
+git clone https://github.com/NateLol/luci-app-oled.git feeds/packages/luci-app-oled
