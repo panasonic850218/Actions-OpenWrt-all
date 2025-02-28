@@ -28,5 +28,5 @@ git clone https://github.com/animegasan/luci-app-dnsleaktest.git feeds/packages/
 git clone https://github.com/sirpdboy/luci-app-chatgpt-web.git feeds/packages/luci-app-chatgpt-web
 git clone https://github.com/sirpdboy/netspeedtest.git feeds/packages/netspeedtest
 sed -i '3i echo 90 > /sys/class/hwmon/hwmon1/pwm1' package/base-files/files/etc/rc.local
-sed -i '3i # echo "0e8d 7127" >> /sys/bus/usb-serial/drivers/generic/new_id' package/base-files/files/etc/rc.local
-sed -i '3i # echo "0e8d 7127" >> /sys/bus/usb-serial/drivers/generic/new_id' package/base-files/files/etc/rc.local
+# sed -i '3i # echo "0e8d 7127" >> /sys/bus/usb-serial/drivers/generic/new_id' package/base-files/files/etc/rc.local
+# sed -i '3i # echo "0e8d 7127" >> /sys/bus/usb-serial/drivers/generic/new_id' package/base-files/files/etc/rc.local
